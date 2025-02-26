@@ -27,5 +27,5 @@ jobs:
       # Step 3: Build and push Docker image
       - name: Build and push Docker image
         run: |
-          docker build -t your-dockerhub-username/container:latest .
-          docker push your-dockerhub-username/container:latest
+          docker build -t rootlessnomad/container:latest .
+          docker push rootlessnomad/container:latest
